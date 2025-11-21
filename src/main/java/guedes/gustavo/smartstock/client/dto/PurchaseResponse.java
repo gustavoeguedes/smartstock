@@ -1,4 +1,6 @@
 package guedes.gustavo.smartstock.client.dto;
 
-public record PurchaseResponse() {
+import com.fasterxml.jackson.annotation.JsonProperty;
+
+public record PurchaseResponse(@JsonProperty("message") String message) {
 }

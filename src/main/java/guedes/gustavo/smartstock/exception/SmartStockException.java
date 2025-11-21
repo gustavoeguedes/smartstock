@@ -1,4 +1,8 @@
 package guedes.gustavo.smartstock.exception;
 
-public class SmartStockException {
+public class SmartStockException extends RuntimeException {
+
+    public SmartStockException(String message) {
+        super(message);
+    }
 }

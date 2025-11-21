@@ -1,6 +1,6 @@
 {
   "uuid": "11d77af4-b38b-4181-9665-4bb7886df7a2",
-  "lastMigration": 32,
+  "lastMigration": 33,
   "name": "Purchase sector apis",
   "endpointPrefix": "",
   "latency": 0,
@@ -76,7 +76,9 @@
           "callbacks": []
         }
       ],
-      "responseMode": null
+      "responseMode": null,
+      "streamingMode": null,
+      "streamingInterval": 0
     },
     {
       "uuid": "ff494eeb-80c2-4238-963c-dea19c2c4ce0",
@@ -230,7 +232,9 @@
           "callbacks": []
         }
       ],
-      "responseMode": null
+      "responseMode": null,
+      "streamingMode": null,
+      "streamingInterval": 0
     }
   ],
   "rootChildren": [
