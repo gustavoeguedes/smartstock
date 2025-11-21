@@ -1,0 +1,23 @@
+meta {
+  name: start
+  type: http
+  seq: 1
+}
+
+post {
+  url: http://localhost:8080/start
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+         "reportPath": "//wsl.localhost/Ubuntu-24.04/home/gustavo/www/java/smartstock/reports/stock.csv"
+       }
+  
+}
+
+settings {
+  encodeUrl: true
+  timeout: 0
+}
